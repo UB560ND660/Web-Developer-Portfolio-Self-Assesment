@@ -1,22 +1,22 @@
-body{
+body {
     margin: 0;
 }
 
 /* font open sans*/
-.open-sans{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared styles */
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
-.dark-3{
+.dark-3 {
     color: #757575;
 }
 
@@ -24,7 +24,11 @@ body{
     color: #FD6E0A;
 }
 
-.btn-primary{
+.white-bg {
+    background-color: white;
+}
+
+.btn-primary {
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
@@ -35,31 +39,137 @@ body{
     cursor: pointer;
 }
 
+.orange-bg {
+    background-color: #FFF8F3;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+
+
+/* header section */
+
+header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
+
 /* navbar section */
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 200px;
 }
 
-.nav-logo{
+.nav-logo {
     font-size: 45px;
     font-weight: 800;
 }
 
 nav ul {
     display: flex;
-    list-style: none;
     align-items: center;
-    gap: 52px;
 }
 
-nav li {
-    font-size: 20px;
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
 }
 
 nav li a {
     text-decoration: none;
+    font-size: 20px;
 }
 
+/* Banner section */
+.banner {
+    display: flex;
+    margin: 0 35px 0 210px;
+    justify-content: space-between;
+
+}
+
+.banner-intro {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner-title {
+    font-size: 85px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.Download-btn {
+    margin-right: 20px;
+}
+
+.left-section {
+    width: 580px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me section  */
+
+.section-about-me {
+    padding: 130px 157px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+.about-me {
+    font-size: 35px;
+}
+
+.about-me-description {
+    font-size: 18px;
+}
+
+.about-me-information {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/* skills section */
+
+.skill-title {
+    margin-bottom: 30px;
+}
+
+.skill-section {
+    margin: 200px 0px;
+}
+
+.skill-description {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.skill-heading {
+    text-align: center;
+}
+
+.skills {
+    margin: 50px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.skill-card{
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 0 50px 0 rgb(0, 0, 0, 6%);
+}
