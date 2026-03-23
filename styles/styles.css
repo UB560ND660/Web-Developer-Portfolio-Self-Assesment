@@ -47,7 +47,9 @@ body {
     font-size: 20px;
 }
 
-
+.text-center {
+    text-align: center;
+}
 
 /* header section */
 
@@ -168,8 +170,67 @@ main {
     gap: 24px;
 }
 
-.skill-card{
+.skill-card {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 6px 0 50px 0 rgb(0, 0, 0, 6%);
 }
+
+/* resume section */
+
+.section-title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume-container {
+    margin-bottom: 130px;
+}
+
+.resume-columns {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 90px;
+}
+
+.experience-title {
+    font-size: 25px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer section */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.connect-container {
+    width: 50%;
+}
+
+.footer-title {
+    font-size: 35px;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    padding: 18px 35px;
+    width: 461px;
+    margin-bottom: 20px;
+    border: none;
+    height: 40px;
+}
+
+textarea{
+    border: none;
+    padding: 18px 35px;
+    height: 180px;
+    width: 461px;
+    margin-bottom: 20px;
+}
+
